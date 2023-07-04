@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
  * print_chessboard - Entry point
  * @a: array
@@ -18,3 +16,4 @@ void print_chessboard(char (*a)[8])
 		_putchar('\n');
 	}
 }
+
