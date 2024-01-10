@@ -1,3 +1,8 @@
+/*
+ * File: 100-sorted_hash_table.c
+ * Auth: Abasz Asuquo
+ */
+
 #include "hash_tables.h"
 
 shash_table_t *shash_table_create(unsigned long int size);
@@ -216,4 +221,4 @@ void shash_table_delete(shash_table_t *ht)
 
 	free(head->array);
 	free(head);
-}i
+}
